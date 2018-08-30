@@ -3,17 +3,15 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class MuzSort {
-    ArrayList<String> songlist = new ArrayList<>();
-    ArrayList<String> varsonglist = new ArrayList<>();
-    ArrayList<Song> songmassive = new ArrayList<>();
-    FileReader FR;
-    BufferedReader BR;
-    FileWriter FW;
-    BufferedWriter BW;
+    private ArrayList<String> songlist = new ArrayList<>();
+    private ArrayList<String> varsonglist = new ArrayList<>();
+    private ArrayList<Song> songmassive = new ArrayList<>();
+    private FileReader FR;
+    private BufferedReader BR;
     public static void main(String[] args) {
         new MuzSort().start();
     }
-    void start() {
+    private  void start() {
          {
             try {
                  FR = new FileReader("songs.txt");
@@ -55,7 +53,7 @@ public class MuzSort {
             }
         }
     }
-    void readArrayList() throws Exception{
+    private  void readArrayList() throws Exception{
         while (BR.ready()){
             songlist.add(BR.readLine());
         }
@@ -63,8 +61,8 @@ public class MuzSort {
 }
 
 class Song {
-    String name;
-    String author;
+    private  String name;
+    private   String author;
     Song(String var21, String var20){
         name = var21;
         author = var20;
