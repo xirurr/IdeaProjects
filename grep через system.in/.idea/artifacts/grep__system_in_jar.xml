@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="grep через system.in:jar">
+    <output-path>$USER_HOME$/Desktop/java progs/grep new</output-path>
+    <root id="archive" name="grep через system.in.jar">
+      <element id="module-output" name="grep через system.in" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_grep" default="compile.module.grep">
+  <dirname property="module.grep.basedir" file="${ant.file.module_grep}"/>
+  
+  <property name="module.jdk.home.grep" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.grep" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.grep" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.grep" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="grep.output.dir" value="${module.grep.basedir}/out/production/grep"/>
+  <property name="grep.testoutput.dir" value="${module.grep.basedir}/out/test/grep"/>
+  
+  <path id="grep.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="grep.module.production.classpath">
+    <path refid="${module.jdk.classpath.grep}"/>
+  </path>
+  
+  <path id="grep.runtime.production.module.classpath">
+    <pathelement location="${grep.output.dir}"/>
+  </path>
+  
+  <path id="grep.module.classpath">
+    <path refid="${module.jdk.classpath.grep}"/>
+    <pathelement location="${grep.output.dir}"/>
+  </path>
+  
+  <path id="grep.runtime.module.classpath">
+    <pathelement location="${grep.testoutput.dir}"/>
+    <pathelement location="${grep.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.grep">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.grep">
+    <patternset refid="excluded.from.module.grep"/>
+  </patternset>
+  
+  <path id="grep.module.sourcepath">
+    <dirset dir="${module.grep.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.grep" depends="compile.module.grep.production,compile.module.grep.tests" description="Compile module grep"/>
+  
+  <target name="compile.module.grep.production" depends="register.custom.compilers" description="Compile module grep; production classes">
+    <mkdir dir="${grep.output.dir}"/>
+    <javac2 destdir="${grep.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.grep}/javac">
+      <compilerarg line="${compiler.args.grep}"/>
+      <bootclasspath refid="grep.module.bootclasspath"/>
+      <classpath refid="grep.module.production.classpath"/>
+      <src refid="grep.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.grep"/>
+    </javac2>
+    
+    <copy todir="${grep.output.dir}">
+      <fileset dir="${module.grep.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.grep.tests" depends="register.custom.compilers,compile.module.grep.production" description="compile module grep; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.grep" description="cleanup module">
+    <delete dir="${grep.output.dir}"/>
+    <delete dir="${grep.testoutput.dir}"/>
+  </target>
+</project>

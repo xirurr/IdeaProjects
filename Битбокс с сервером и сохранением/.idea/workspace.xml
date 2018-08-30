@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Битбокс с сервером и сохранением:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b60deaa-e808-4bb3-a8d4-554ec4c7e168" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/____$Musicbox.ic" NAME="Musicbox Coverage Results" MODIFIED="1530974889333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Битбокс с сервером и сохранением" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Musicbox.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
+              <folding>
+                <element signature="method#main#0;class#Musicbox#0" />
+                <element signature="method#INFACE#0;class#Musicbox#0" />
+                <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+                <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+                <element signature="method#chatconnect#0;class#Musicbox#0" />
+                <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+                <element signature="method#makeEvent#0;class#Musicbox#0" />
+                <element signature="class#startBTL#0;class#Musicbox#0" />
+                <element signature="class#stopBTL#0;class#Musicbox#0" />
+                <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+                <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+                <element signature="class#saveBTL#0;class#Musicbox#0" />
+                <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+                <element signature="class#sendBTL#0;class#Musicbox#0" />
+                <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+                <element signature="class#incomreader#0;class#Musicbox#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>instNames</find>
+      <find>DAS</find>
+      <find>jta</find>
+      <find>ArrayList</find>
+      <find>checkboxList</find>
+      <find>for</find>
+      <find>System.out.println</find>
+      <find>lenght</find>
+      <find>chaty</find>
+      <find>sendText</find>
+      <find>BR.readLine</find>
+      <find>InputStreamReader</find>
+      <find>BufferedReader</find>
+      <find>getTextWriteChatbox</find>
+      <find>connectsendgettext</find>
+      <find>BR</find>
+      <find>socket</find>
+      <find>chatconnect</find>
+      <find>chatlistener</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/serverL.java" />
+        <option value="$PROJECT_DIR$/src/Musicbox.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="битбокс_с_сервером_и_сохранением" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/java progs" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Musicbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Musicbox" />
+      <module name="Битбокс с сервером и сохранением" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Musicbox" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b60deaa-e808-4bb3-a8d4-554ec4c7e168" name="Default" comment="" />
+      <created>1530643861520</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530643861520</updated>
+      <workItem from="1530643864481" duration="3859000" />
+      <workItem from="1530649008076" duration="26022000" />
+      <workItem from="1530789240032" duration="15202000" />
+      <workItem from="1530884140336" duration="17177000" />
+      <workItem from="1530926508525" duration="42129000" />
+      <workItem from="1531148997418" duration="4792000" />
+      <workItem from="1531262192804" duration="4757000" />
+      <workItem from="1531303566129" duration="214000" />
+      <workItem from="1532987194935" duration="1539000" />
+      <workItem from="1532991186319" duration="5870000" />
+      <workItem from="1533417994018" duration="42000" />
+      <workItem from="1533508609246" duration="25000" />
+      <workItem from="1533508745454" duration="872000" />
+      <workItem from="1534371683649" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122550000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="683" height="728" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5024077" side_tool="true" weight="0.28521127" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4975923" weight="0.38908452" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32922536" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" weight="0.24558587" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.5013928" side_tool="true" weight="0.24659607" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38527396" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4975923" weight="0.28424656" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="45" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="frame" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>frame</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fb</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>asdf</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="308" column="32" selection-end-line="360" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="308" column="32" selection-start-line="307" selection-start-column="16" selection-end-line="308" selection-end-column="32" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="308" column="32" lean-forward="true" selection-start-line="307" selection-start-column="16" selection-end-line="308" selection-end-column="32" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="131" column="24" lean-forward="true" selection-end-line="360" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="301" column="5" lean-forward="true" selection-start-line="301" selection-start-column="5" selection-end-line="301" selection-end-column="5" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="330" column="25" lean-forward="true" selection-start-line="330" selection-start-column="25" selection-end-line="330" selection-end-column="25" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="22" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="283" column="33" lean-forward="true" selection-start-line="283" selection-start-column="33" selection-end-line="283" selection-end-column="33" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="174" column="15" selection-start-line="174" selection-start-column="15" selection-end-line="174" selection-end-column="15" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dd.java" />
+    <entry file="file://$PROJECT_DIR$/src/dd.form" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/event/KeyAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/src/serverL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo.ser">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/sun/util/logging/PlatformLogger.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Component.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/CallSite.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/ModuleLayer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/System.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ServiceLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/jdk/internal/logger/BootstrapLogger.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/ref/ReferenceQueue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/MethodType.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Object.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ResourceBundle.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/ImmutableCollections.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/AbstractList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/io/FileInputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.desktop/java/awt/Toolkit.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/MethodHandleNatives.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/MemberName.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/InvokerBytecodeGenerator.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/LambdaForm.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/DirectMethodHandle.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/MethodHandles.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/invoke/BoundMethodHandle.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/Properties.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java" />
+    <entry file="file://$PROJECT_DIR$/src/Musicbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="method#main#0;class#Musicbox#0" />
+            <element signature="method#INFACE#0;class#Musicbox#0" />
+            <element signature="method#repaintcheckbox#0;class#Musicbox#0" />
+            <element signature="method#checkcheckBOX#0;class#Musicbox#0" />
+            <element signature="method#chatconnect#0;class#Musicbox#0" />
+            <element signature="method#getTextWriteChatbox#0;class#Musicbox#0" />
+            <element signature="method#makeEvent#0;class#Musicbox#0" />
+            <element signature="class#startBTL#0;class#Musicbox#0" />
+            <element signature="class#stopBTL#0;class#Musicbox#0" />
+            <element signature="class#tempUPBTL#0;class#Musicbox#0" />
+            <element signature="class#tempDWNBTL#0;class#Musicbox#0" />
+            <element signature="class#saveBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#loadBTL#0;class#Musicbox#0" />
+            <element signature="class#sendBTL#0;class#Musicbox#0" />
+            <element signature="method#actionPerformed#0;class#sendBTL#0;class#Musicbox#0" />
+            <element signature="class#incomreader#0;class#Musicbox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Битбокс с сервером и сохранением:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Битбокс с сервером и сохранением</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

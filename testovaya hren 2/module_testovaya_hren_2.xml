@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_testovaya_hren_2" default="compile.module.testovaya_hren_2">
+  <dirname property="module.testovaya_hren_2.basedir" file="${ant.file.module_testovaya_hren_2}"/>
+  
+  <property name="module.jdk.home.testovaya_hren_2" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.testovaya_hren_2" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.testovaya_hren_2" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.testovaya_hren_2" value="-encoding windows-1251 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="testovaya_hren_2.output.dir" value="${module.testovaya_hren_2.basedir}/out/production/testovaya hren 2"/>
+  <property name="testovaya_hren_2.testoutput.dir" value="${module.testovaya_hren_2.basedir}/out/test/testovaya hren 2"/>
+  
+  <path id="testovaya_hren_2.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="testovaya_hren_2.module.production.classpath">
+    <path refid="${module.jdk.classpath.testovaya_hren_2}"/>
+  </path>
+  
+  <path id="testovaya_hren_2.runtime.production.module.classpath">
+    <pathelement location="${testovaya_hren_2.output.dir}"/>
+  </path>
+  
+  <path id="testovaya_hren_2.module.classpath">
+    <path refid="${module.jdk.classpath.testovaya_hren_2}"/>
+    <pathelement location="${testovaya_hren_2.output.dir}"/>
+  </path>
+  
+  <path id="testovaya_hren_2.runtime.module.classpath">
+    <pathelement location="${testovaya_hren_2.testoutput.dir}"/>
+    <pathelement location="${testovaya_hren_2.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.testovaya_hren_2">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.testovaya_hren_2">
+    <patternset refid="excluded.from.module.testovaya_hren_2"/>
+  </patternset>
+  
+  <path id="testovaya_hren_2.module.sourcepath">
+    <dirset dir="${module.testovaya_hren_2.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.testovaya_hren_2" depends="compile.module.testovaya_hren_2.production,compile.module.testovaya_hren_2.tests" description="Compile module testovaya hren 2"/>
+  
+  <target name="compile.module.testovaya_hren_2.production" depends="register.custom.compilers" description="Compile module testovaya hren 2; production classes">
+    <mkdir dir="${testovaya_hren_2.output.dir}"/>
+    <javac2 destdir="${testovaya_hren_2.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.testovaya_hren_2}/javac">
+      <compilerarg line="${compiler.args.testovaya_hren_2}"/>
+      <bootclasspath refid="testovaya_hren_2.module.bootclasspath"/>
+      <classpath refid="testovaya_hren_2.module.production.classpath"/>
+      <src refid="testovaya_hren_2.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.testovaya_hren_2"/>
+    </javac2>
+    
+    <copy todir="${testovaya_hren_2.output.dir}">
+      <fileset dir="${module.testovaya_hren_2.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.testovaya_hren_2.tests" depends="register.custom.compilers,compile.module.testovaya_hren_2.production" description="compile module testovaya hren 2; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.testovaya_hren_2" description="cleanup module">
+    <delete dir="${testovaya_hren_2.output.dir}"/>
+    <delete dir="${testovaya_hren_2.testoutput.dir}"/>
+  </target>
+</project>

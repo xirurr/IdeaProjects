@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="cmd:jar">
+    <output-path>$USER_HOME$/Desktop/java progs/test jcl</output-path>
+    <root id="root">
+      <element id="archive" name="cmd.jar">
+        <element id="module-output" name="cmd" />
+      </element>
+    </root>
+  </artifact>
+</component>

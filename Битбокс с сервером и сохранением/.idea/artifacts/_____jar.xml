@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Битбокс с сервером и сохранением:jar">
+    <output-path>$USER_HOME$/Desktop/java progs/1/</output-path>
+    <root id="archive" name="Битбокс с сервером и сохранением.jar">
+      <element id="module-output" name="Битбокс с сервером и сохранением" />
+    </root>
+  </artifact>
+</component>

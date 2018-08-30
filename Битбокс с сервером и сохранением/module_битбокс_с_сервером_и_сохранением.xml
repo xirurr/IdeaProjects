@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_битбокс_с_сервером_и_сохранением" default="compile.module.битбокс_с_сервером_и_сохранением">
+  <dirname property="module.битбокс_с_сервером_и_сохранением.basedir" file="${ant.file.module_битбокс_с_сервером_и_сохранением}"/>
+  
+  <property name="module.jdk.home.битбокс_с_сервером_и_сохранением" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.битбокс_с_сервером_и_сохранением" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.битбокс_с_сервером_и_сохранением" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.битбокс_с_сервером_и_сохранением" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="битбокс_с_сервером_и_сохранением.output.dir" value="${module.битбокс_с_сервером_и_сохранением.basedir}/out/production/Битбокс с сервером и сохранением"/>
+  <property name="битбокс_с_сервером_и_сохранением.testoutput.dir" value="${module.битбокс_с_сервером_и_сохранением.basedir}/out/test/Битбокс с сервером и сохранением"/>
+  
+  <path id="битбокс_с_сервером_и_сохранением.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="битбокс_с_сервером_и_сохранением.module.production.classpath">
+    <path refid="${module.jdk.classpath.битбокс_с_сервером_и_сохранением}"/>
+  </path>
+  
+  <path id="битбокс_с_сервером_и_сохранением.runtime.production.module.classpath">
+    <pathelement location="${битбокс_с_сервером_и_сохранением.output.dir}"/>
+  </path>
+  
+  <path id="битбокс_с_сервером_и_сохранением.module.classpath">
+    <path refid="${module.jdk.classpath.битбокс_с_сервером_и_сохранением}"/>
+    <pathelement location="${битбокс_с_сервером_и_сохранением.output.dir}"/>
+  </path>
+  
+  <path id="битбокс_с_сервером_и_сохранением.runtime.module.classpath">
+    <pathelement location="${битбокс_с_сервером_и_сохранением.testoutput.dir}"/>
+    <pathelement location="${битбокс_с_сервером_и_сохранением.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.битбокс_с_сервером_и_сохранением">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.битбокс_с_сервером_и_сохранением">
+    <patternset refid="excluded.from.module.битбокс_с_сервером_и_сохранением"/>
+  </patternset>
+  
+  <path id="битбокс_с_сервером_и_сохранением.module.sourcepath">
+    <dirset dir="${module.битбокс_с_сервером_и_сохранением.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.битбокс_с_сервером_и_сохранением" depends="compile.module.битбокс_с_сервером_и_сохранением.production,compile.module.битбокс_с_сервером_и_сохранением.tests" description="Compile module Битбокс с сервером и сохранением"/>
+  
+  <target name="compile.module.битбокс_с_сервером_и_сохранением.production" depends="register.custom.compilers" description="Compile module Битбокс с сервером и сохранением; production classes">
+    <mkdir dir="${битбокс_с_сервером_и_сохранением.output.dir}"/>
+    <javac2 destdir="${битбокс_с_сервером_и_сохранением.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.битбокс_с_сервером_и_сохранением}/javac">
+      <compilerarg line="${compiler.args.битбокс_с_сервером_и_сохранением}"/>
+      <bootclasspath refid="битбокс_с_сервером_и_сохранением.module.bootclasspath"/>
+      <classpath refid="битбокс_с_сервером_и_сохранением.module.production.classpath"/>
+      <src refid="битбокс_с_сервером_и_сохранением.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.битбокс_с_сервером_и_сохранением"/>
+    </javac2>
+    
+    <copy todir="${битбокс_с_сервером_и_сохранением.output.dir}">
+      <fileset dir="${module.битбокс_с_сервером_и_сохранением.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.битбокс_с_сервером_и_сохранением.tests" depends="register.custom.compilers,compile.module.битбокс_с_сервером_и_сохранением.production" description="compile module Битбокс с сервером и сохранением; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.битбокс_с_сервером_и_сохранением" description="cleanup module">
+    <delete dir="${битбокс_с_сервером_и_сохранением.output.dir}"/>
+    <delete dir="${битбокс_с_сервером_и_сохранением.testoutput.dir}"/>
+  </target>
+</project>
