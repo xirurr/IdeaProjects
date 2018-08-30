@@ -68,12 +68,12 @@ class Song {
         author = var20;
     }
 
-    void setSongName(String var){
+  /*  void setSongName(String var){
         name = var;
     }
     void setSongAuthor(String var){
         author = var;
-    }
+    }*/
     String getSongName(){
         return name;
     }
